@@ -1,0 +1,26 @@
+{
+  "name": "matrimonialsite-main",
+  "version": "1.0.0",
+  "description": "",
+  "homepage":"https://github.com/neil1040/ETE_Project.git",
+  "main": "index.js",
+  "scripts": {
+    "deploy":"gh-pages -d build",
+    "pre-deploy":"npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neil1040/ETE_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neil1040/ETE_Project/issues"
+  },
+  "homepage": "https://github.com/neil1040/ETE_Project#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
